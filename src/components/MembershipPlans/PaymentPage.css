@@ -1,0 +1,36 @@
+.payment-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .payment-container {
+    background: #111;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .payment-form input {
+    padding: 0.5rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+  }
+  
+  .payment-form button {
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+  }
+  

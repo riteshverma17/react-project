@@ -1,0 +1,54 @@
+.our__mission_image {
+    border-radius: 10%;
+    overflow: hidden;
+    transform: skew(-1deg);
+    transition: all 500ms ease;
+}
+
+.our__mission_image:hover {
+    transform: skew(-0deg);
+}
+
+.our__mission_content h1 {
+    margin-bottom: 2rem;
+}
+
+.our__mission_content p {
+    margin-bottom: 1rem;
+}
+
+.our__mission_container {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+}
+
+/************************************************** 
+   Media Queries - Medium Screens 
+***************************************************/
+@media screen and (max-width: 1024px) {
+    .our__mission_image {
+        width: 80%;
+        grid-row: 1;
+        margin: 0 auto;
+    }
+    .our__mission_content h1 {
+        margin-bottom: 1.2rem;
+    }
+    .our__mission_container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
+/************************************************** 
+   Media Queries - SMall Screens 
+***************************************************/
+@media screen and (max-width: 600px) {
+    .our__mission {
+        margin-top: 3rem;
+    }
+    .our__mission_content {
+        text-align: center;
+    }
+}
